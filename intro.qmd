@@ -1,5 +1,4 @@
 # What is this? 
 
-This is my notes for better understading backgammon.
+This is my notes for better understanding backgammon.
 
-git@github.com:lassehjorthmadsen/understanding-backgammon.git
