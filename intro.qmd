@@ -1,4 +1,13 @@
-# What is this? 
+# How we do this {.unnumbered}
 
-This is my notes for better understanding backgammon.
+Backgammon decisions split more or less naturally into "positional" and "technical" problems.
 
+The positional decisions require *vision*: Game plan, structural patterns, importance of points -- all the more qualitative stuff.
+
+Technical decisions, on the other hand, require *counting*: Shots, rolls and pips -- the quantitative stuff.
+
+Both types of positions, positional and technical, of course have both checker plays and cube plays (double and take decisions). So all in all we have four broad categories. Within those we focus on *concepts* for checker plays (splitting, hitting loose, etc).
+
+For cube decisions we try find typical positions for: a) a minimal double, b) a solid double and solid take, c) a minimal take.
+
+Let's go.

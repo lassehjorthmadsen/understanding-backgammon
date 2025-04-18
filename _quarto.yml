@@ -1,18 +1,40 @@
+# _quarto.yml
+
 project:
   type: book
-
+  output-dir: _book 
+  
+# Basic book metadata
 book:
   title: "Understanding Backgammon"
   author: "Lasse Hjorth Madsen"
-  date: today
+  date: "today" 
+  site-url: https://lassehjorthmadsen.github.io/understanding-backgammon/
+  repo-url: https://github.com/lassehjorthmadsen/understanding-backgammon/
+  description: "Positions and notes for learning to play better backgammon"
+
+  # Define the structure and order of chapters
   chapters:
     - index.qmd
     - intro.qmd
-    - summary.qmd
-    - references.qmd
-
-bibliography: references.bib
-
+    - part: "POSITIONAL PLAYS"
+      chapters:
+        - positional_checker.qmd
+        - positional_cube.qmd
+    - part: "TECHNICAL PLAYS"
+      chapters:
+        - technical_checker.qmd
+        - technical_cube.qmd
+  
+# Formatting options (HTML is default for GH Pages)
 format:
   html:
-    theme: cosmo
+    theme: cosmo 
+    toc: true      
+    toc-depth: 3   
+    number-sections: true 
+    
+# Execution options (if using R or Python code)
+execute:
+  freeze: auto  # Re-render only changed files (good for development)
+  cache: false  # Change to cache results across renders
