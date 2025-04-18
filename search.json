@@ -4,39 +4,151 @@
     "href": "index.html",
     "title": "Understanding Backgammon",
     "section": "",
-    "text": "Preface\nThis is the preface to my book built with Quarto.",
+    "text": "What is this?\nThis is my notes for better understanding backgammon. I don’t expect anybody to ever stumble on this, but if you do, I hope you enjoy what you find, and don’t mind that this will be an unfinished project – at least for some time to come.",
     "crumbs": [
-      "Preface"
-    ]
-  },
-  {
-    "objectID": "index.html#what-to-expect",
-    "href": "index.html#what-to-expect",
-    "title": "Understanding Backgammon",
-    "section": "What to expect",
-    "text": "What to expect\nThis book will cover…",
-    "crumbs": [
-      "Preface"
+      "What is this?"
     ]
   },
   {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "1  What is this?",
+    "title": "How we do this",
     "section": "",
-    "text": "This is my notes for better understanding backgammon.",
+    "text": "Backgammon decisions split more or less naturally into “positional” and “technical” problems.\nThe positional decisions require vision: Game plan, structural patterns, importance of points – all the more qualitative stuff.\nTechnical decisions, on the other hand, require counting: Shots, rolls and pips – the quantitative stuff.\nBoth types of positions, positional and technical, of course have both checker plays and cube plays (double and take decisions). So all in all we have four broad categories. Within those we focus on concepts for checker plays (splitting, hitting loose, etc).\nFor cube decisions we try find typical positions for: a) a minimal double, b) a solid double and solid take, c) a minimal take.\nLet’s go.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>What is this?</span>"
+      "How we do this"
     ]
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
+    "objectID": "positional_checker.html",
+    "href": "positional_checker.html",
+    "title": "1  Checkerplays",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.",
+    "text": "1.1 Slotting",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+      "POSITIONAL PLAYS",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Checkerplays</span>"
+    ]
+  },
+  {
+    "objectID": "positional_checker.html#splitting",
+    "href": "positional_checker.html#splitting",
+    "title": "1  Checkerplays",
+    "section": "1.2 Splitting",
+    "text": "1.2 Splitting",
+    "crumbs": [
+      "POSITIONAL PLAYS",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Checkerplays</span>"
+    ]
+  },
+  {
+    "objectID": "positional_checker.html#hitting",
+    "href": "positional_checker.html#hitting",
+    "title": "1  Checkerplays",
+    "section": "1.3 Hitting",
+    "text": "1.3 Hitting",
+    "crumbs": [
+      "POSITIONAL PLAYS",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Checkerplays</span>"
+    ]
+  },
+  {
+    "objectID": "positional_cube.html",
+    "href": "positional_cube.html",
+    "title": "2  Cube plays",
+    "section": "",
+    "text": "2.1 Opening",
+    "crumbs": [
+      "POSITIONAL PLAYS",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Cube plays</span>"
+    ]
+  },
+  {
+    "objectID": "positional_cube.html#priming",
+    "href": "positional_cube.html#priming",
+    "title": "2  Cube plays",
+    "section": "2.2 Priming",
+    "text": "2.2 Priming",
+    "crumbs": [
+      "POSITIONAL PLAYS",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Cube plays</span>"
+    ]
+  },
+  {
+    "objectID": "positional_cube.html#positional",
+    "href": "positional_cube.html#positional",
+    "title": "2  Cube plays",
+    "section": "2.3 Positional",
+    "text": "2.3 Positional",
+    "crumbs": [
+      "POSITIONAL PLAYS",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Cube plays</span>"
+    ]
+  },
+  {
+    "objectID": "technical_checker.html",
+    "href": "technical_checker.html",
+    "title": "3  Checkerplays",
+    "section": "",
+    "text": "3.1 Races",
+    "crumbs": [
+      "TECHNICAL PLAYS",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Checkerplays</span>"
+    ]
+  },
+  {
+    "objectID": "technical_checker.html#bear-off",
+    "href": "technical_checker.html#bear-off",
+    "title": "3  Checkerplays",
+    "section": "3.2 Bear-off",
+    "text": "3.2 Bear-off",
+    "crumbs": [
+      "TECHNICAL PLAYS",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Checkerplays</span>"
+    ]
+  },
+  {
+    "objectID": "technical_checker.html#containment",
+    "href": "technical_checker.html#containment",
+    "title": "3  Checkerplays",
+    "section": "3.3 Containment",
+    "text": "3.3 Containment",
+    "crumbs": [
+      "TECHNICAL PLAYS",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Checkerplays</span>"
+    ]
+  },
+  {
+    "objectID": "technical_cube.html",
+    "href": "technical_cube.html",
+    "title": "4  Cube plays",
+    "section": "",
+    "text": "4.1 Blitzing",
+    "crumbs": [
+      "TECHNICAL PLAYS",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Cube plays</span>"
+    ]
+  },
+  {
+    "objectID": "technical_cube.html#racing",
+    "href": "technical_cube.html#racing",
+    "title": "4  Cube plays",
+    "section": "4.2 Racing",
+    "text": "4.2 Racing",
+    "crumbs": [
+      "TECHNICAL PLAYS",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Cube plays</span>"
+    ]
+  },
+  {
+    "objectID": "technical_cube.html#containing",
+    "href": "technical_cube.html#containing",
+    "title": "4  Cube plays",
+    "section": "4.3 Containing",
+    "text": "4.3 Containing",
+    "crumbs": [
+      "TECHNICAL PLAYS",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Cube plays</span>"
     ]
   }
 ]
