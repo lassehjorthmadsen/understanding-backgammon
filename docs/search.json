@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Understanding Backgammon",
+    "section": "",
+    "text": "Preface\nThis is the preface to my book built with Quarto.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "2  What is this?",
+    "section": "",
+    "text": "This is my notes for better understading backgammon.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>What is this?</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "index.html#what-to-expect",
+    "href": "index.html#what-to-expect",
+    "title": "Understanding Backgammon",
+    "section": "What to expect",
+    "text": "What to expect\nThis book will cover…",
+    "crumbs": [
+      "Preface"
+    ]
+  }
+]

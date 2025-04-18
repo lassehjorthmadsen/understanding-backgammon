@@ -1,0 +1,7 @@
+# Preface {.unnumbered}
+
+This is the preface to my book built with [Quarto](https://quarto.org/).
+
+## What to expect
+
+This book will cover...
