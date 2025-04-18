@@ -1,8 +1,9 @@
+name: Render and Publish Quarto Book
+
 on:
   push:
     branches: main
-
-name: Render and Publish
+  workflow_dispatch:
 
 jobs:
   build-deploy:
@@ -23,6 +24,7 @@ jobs:
           packages:
             any::knitr
             any::rmarkdown
+            # Add any other packages your book needs here
             
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
