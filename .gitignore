@@ -8,7 +8,7 @@
 *.Rproj
 
 # Quarto temporary files
-.quarto/
+/.quarto/
 /_site/
 /_book/
 /_freeze/
