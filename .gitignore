@@ -5,13 +5,11 @@
 .Ruserdata
 .Rapp.history
 .Rproj.user
-*.Rproj
 
 # Quarto temporary files
 /.quarto/
 /_site/
 /_book/
-/_freeze/
 
 # Temporary files
 *.html

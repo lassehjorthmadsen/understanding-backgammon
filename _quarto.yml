@@ -32,7 +32,7 @@ format:
     theme: cosmo 
     toc: true      
     toc-depth: 3   
-    number-sections: true 
+    number-sections: false 
     
 # Execution options (if using R or Python code)
 execute:

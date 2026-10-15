@@ -1,8 +1,14 @@
 ---
-title: "Checkerplays"
+title: "Checker plays"
 ---
 
+## Opening
 ## Slotting
 ## Splitting
-## Hitting
-
+## Running
+## Escaping
+## Tactical hits
+## Hit or point
+## Flexibility
+## Priming
+## Backgames
