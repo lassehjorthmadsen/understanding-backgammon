@@ -22,42 +22,130 @@
   {
     "objectID": "positional_checker.html",
     "href": "positional_checker.html",
-    "title": "1  Checkerplays",
+    "title": "Checker plays",
     "section": "",
-    "text": "1.1 Slotting",
+    "text": "Opening",
     "crumbs": [
       "POSITIONAL PLAYS",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Checkerplays</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Checker plays</span>"
+    ]
+  },
+  {
+    "objectID": "positional_checker.html#slotting",
+    "href": "positional_checker.html#slotting",
+    "title": "Checker plays",
+    "section": "Slotting",
+    "text": "Slotting",
+    "crumbs": [
+      "POSITIONAL PLAYS",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Checker plays</span>"
     ]
   },
   {
     "objectID": "positional_checker.html#splitting",
     "href": "positional_checker.html#splitting",
-    "title": "1  Checkerplays",
-    "section": "1.2 Splitting",
-    "text": "1.2 Splitting",
+    "title": "Checker plays",
+    "section": "Splitting",
+    "text": "Splitting",
     "crumbs": [
       "POSITIONAL PLAYS",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Checkerplays</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Checker plays</span>"
     ]
   },
   {
-    "objectID": "positional_checker.html#hitting",
-    "href": "positional_checker.html#hitting",
-    "title": "1  Checkerplays",
-    "section": "1.3 Hitting",
-    "text": "1.3 Hitting",
+    "objectID": "positional_checker.html#running",
+    "href": "positional_checker.html#running",
+    "title": "Checker plays",
+    "section": "Running",
+    "text": "Running",
     "crumbs": [
       "POSITIONAL PLAYS",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Checkerplays</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Checker plays</span>"
+    ]
+  },
+  {
+    "objectID": "positional_checker.html#escaping",
+    "href": "positional_checker.html#escaping",
+    "title": "Checker plays",
+    "section": "Escaping",
+    "text": "Escaping",
+    "crumbs": [
+      "POSITIONAL PLAYS",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Checker plays</span>"
+    ]
+  },
+  {
+    "objectID": "positional_checker.html#tactical-hits",
+    "href": "positional_checker.html#tactical-hits",
+    "title": "Checker plays",
+    "section": "Tactical hits",
+    "text": "Tactical hits",
+    "crumbs": [
+      "POSITIONAL PLAYS",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Checker plays</span>"
+    ]
+  },
+  {
+    "objectID": "positional_checker.html#hit-or-point",
+    "href": "positional_checker.html#hit-or-point",
+    "title": "Checker plays",
+    "section": "Hit or point",
+    "text": "Hit or point",
+    "crumbs": [
+      "POSITIONAL PLAYS",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Checker plays</span>"
+    ]
+  },
+  {
+    "objectID": "positional_checker.html#flexibility",
+    "href": "positional_checker.html#flexibility",
+    "title": "Checker plays",
+    "section": "Flexibility",
+    "text": "Flexibility",
+    "crumbs": [
+      "POSITIONAL PLAYS",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Checker plays</span>"
+    ]
+  },
+  {
+    "objectID": "positional_checker.html#priming",
+    "href": "positional_checker.html#priming",
+    "title": "Checker plays",
+    "section": "Priming",
+    "text": "Priming",
+    "crumbs": [
+      "POSITIONAL PLAYS",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Checker plays</span>"
+    ]
+  },
+  {
+    "objectID": "positional_checker.html#backgames",
+    "href": "positional_checker.html#backgames",
+    "title": "Checker plays",
+    "section": "Backgames",
+    "text": "Backgames",
+    "crumbs": [
+      "POSITIONAL PLAYS",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Checker plays</span>"
     ]
   },
   {
     "objectID": "positional_cube.html",
     "href": "positional_cube.html",
-    "title": "2  Cube plays",
+    "title": "Cube plays",
     "section": "",
-    "text": "2.1 Opening",
+    "text": "Opening",
+    "crumbs": [
+      "POSITIONAL PLAYS",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Cube plays</span>"
+    ]
+  },
+  {
+    "objectID": "positional_cube.html#attacking",
+    "href": "positional_cube.html#attacking",
+    "title": "Cube plays",
+    "section": "Attacking",
+    "text": "Attacking",
     "crumbs": [
       "POSITIONAL PLAYS",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Cube plays</span>"
@@ -66,20 +154,31 @@
   {
     "objectID": "positional_cube.html#priming",
     "href": "positional_cube.html#priming",
-    "title": "2  Cube plays",
-    "section": "2.2 Priming",
-    "text": "2.2 Priming",
+    "title": "Cube plays",
+    "section": "Priming",
+    "text": "Priming",
     "crumbs": [
       "POSITIONAL PLAYS",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Cube plays</span>"
     ]
   },
   {
-    "objectID": "positional_cube.html#positional",
-    "href": "positional_cube.html#positional",
-    "title": "2  Cube plays",
-    "section": "2.3 Positional",
-    "text": "2.3 Positional",
+    "objectID": "positional_cube.html#too-good",
+    "href": "positional_cube.html#too-good",
+    "title": "Cube plays",
+    "section": "Too good",
+    "text": "Too good",
+    "crumbs": [
+      "POSITIONAL PLAYS",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Cube plays</span>"
+    ]
+  },
+  {
+    "objectID": "positional_cube.html#ugly-games",
+    "href": "positional_cube.html#ugly-games",
+    "title": "Cube plays",
+    "section": "Ugly games",
+    "text": "Ugly games",
     "crumbs": [
       "POSITIONAL PLAYS",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Cube plays</span>"
@@ -88,42 +187,86 @@
   {
     "objectID": "technical_checker.html",
     "href": "technical_checker.html",
-    "title": "3  Checkerplays",
+    "title": "Checker plays",
     "section": "",
-    "text": "3.1 Races",
+    "text": "Hitting loose",
     "crumbs": [
       "TECHNICAL PLAYS",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Checkerplays</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Checker plays</span>"
     ]
   },
   {
-    "objectID": "technical_checker.html#bear-off",
-    "href": "technical_checker.html#bear-off",
-    "title": "3  Checkerplays",
-    "section": "3.2 Bear-off",
-    "text": "3.2 Bear-off",
+    "objectID": "technical_checker.html#leaving-flyshots",
+    "href": "technical_checker.html#leaving-flyshots",
+    "title": "Checker plays",
+    "section": "Leaving flyshots",
+    "text": "Leaving flyshots",
     "crumbs": [
       "TECHNICAL PLAYS",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Checkerplays</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Checker plays</span>"
+    ]
+  },
+  {
+    "objectID": "technical_checker.html#bearoff",
+    "href": "technical_checker.html#bearoff",
+    "title": "Checker plays",
+    "section": "Bearoff",
+    "text": "Bearoff",
+    "crumbs": [
+      "TECHNICAL PLAYS",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Checker plays</span>"
     ]
   },
   {
     "objectID": "technical_checker.html#containment",
     "href": "technical_checker.html#containment",
-    "title": "3  Checkerplays",
-    "section": "3.3 Containment",
-    "text": "3.3 Containment",
+    "title": "Checker plays",
+    "section": "Containment",
+    "text": "Containment",
     "crumbs": [
       "TECHNICAL PLAYS",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Checkerplays</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Checker plays</span>"
     ]
   },
   {
     "objectID": "technical_cube.html",
     "href": "technical_cube.html",
-    "title": "4  Cube plays",
+    "title": "Cube plays",
     "section": "",
-    "text": "4.1 Blitzing",
+    "text": "High anchors",
+    "crumbs": [
+      "TECHNICAL PLAYS",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Cube plays</span>"
+    ]
+  },
+  {
+    "objectID": "technical_cube.html#low-anchors",
+    "href": "technical_cube.html#low-anchors",
+    "title": "Cube plays",
+    "section": "Low anchors",
+    "text": "Low anchors",
+    "crumbs": [
+      "TECHNICAL PLAYS",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Cube plays</span>"
+    ]
+  },
+  {
+    "objectID": "technical_cube.html#blitzing",
+    "href": "technical_cube.html#blitzing",
+    "title": "Cube plays",
+    "section": "Blitzing",
+    "text": "Blitzing",
+    "crumbs": [
+      "TECHNICAL PLAYS",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Cube plays</span>"
+    ]
+  },
+  {
+    "objectID": "technical_cube.html#action-doubles",
+    "href": "technical_cube.html#action-doubles",
+    "title": "Cube plays",
+    "section": "Action doubles",
+    "text": "Action doubles",
     "crumbs": [
       "TECHNICAL PLAYS",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Cube plays</span>"
@@ -132,9 +275,9 @@
   {
     "objectID": "technical_cube.html#racing",
     "href": "technical_cube.html#racing",
-    "title": "4  Cube plays",
-    "section": "4.2 Racing",
-    "text": "4.2 Racing",
+    "title": "Cube plays",
+    "section": "Racing",
+    "text": "Racing",
     "crumbs": [
       "TECHNICAL PLAYS",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Cube plays</span>"
@@ -143,9 +286,9 @@
   {
     "objectID": "technical_cube.html#containing",
     "href": "technical_cube.html#containing",
-    "title": "4  Cube plays",
-    "section": "4.3 Containing",
-    "text": "4.3 Containing",
+    "title": "Cube plays",
+    "section": "Containing",
+    "text": "Containing",
     "crumbs": [
       "TECHNICAL PLAYS",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Cube plays</span>"
