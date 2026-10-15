@@ -2,6 +2,11 @@
 title: "Checker plays"
 ---
 
+```{r}
+#| include: false
+source("_common.R")
+```
+
 ## Opening
 ## Slotting
 ## Splitting
@@ -9,6 +14,19 @@ title: "Checker plays"
 ## Escaping
 ## Tactical hits
 ## Hit or point
+
+```{r}
+#| warning: false
+#| echo: false
+id <- gnuid2xgid("zM3EASGM8+AIKA", "UQkLAEAAGAAA")
+ggboard(id)
+```
+
+```{r}
+#| echo: false
+show_moves(id, n = 2, plies = 4)
+```
+
 ## Flexibility
 ## Priming
 ## Backgames

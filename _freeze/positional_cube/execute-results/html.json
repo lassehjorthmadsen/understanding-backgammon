@@ -1,0 +1,15 @@
+{
+  "hash": "8b296d849267c57862d2ea2040d83f18",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Cube plays\"\n---\n\n\n\n## Opening\n## Attacking\n## Priming\n## Too good\n## Ugly games\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

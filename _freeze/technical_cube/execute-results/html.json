@@ -1,0 +1,15 @@
+{
+  "hash": "b7c9d4ec6275fc7f89884b21aa70a4f6",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Cube plays\"\n---\n\n\n\n## High anchors\n## Low anchors\n## Blitzing\n## Action doubles\n## Racing\n## Containing\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "hash": "dd17ec83baaa8e230918be42bf9f44ac",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Checker plays\"\n---\n\n\n\n## Hitting loose\n## Leaving flyshots\n## Bearoff \n## Containment\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

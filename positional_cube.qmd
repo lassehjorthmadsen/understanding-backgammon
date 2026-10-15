@@ -2,6 +2,11 @@
 title: "Cube plays"
 ---
 
+```{r}
+#| include: false
+source("_common.R")
+```
+
 ## Opening
 ## Attacking
 ## Priming

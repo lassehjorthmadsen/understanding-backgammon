@@ -2,6 +2,11 @@
 title: "Checker plays"
 ---
 
+```{r}
+#| include: false
+source("_common.R")
+```
+
 ## Hitting loose
 ## Leaving flyshots
 ## Bearoff 

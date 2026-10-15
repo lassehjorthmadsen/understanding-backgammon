@@ -4,7 +4,21 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A Quarto **book** ("Understanding Backgammon") of personal notes and example positions for improving at backgammon. Content is prose in `.qmd` files; there is currently no R/Python code in the chapters, though it is set up as an RStudio project so R chunks can be added.
+A Quarto **book** ("Understanding Backgammon") of personal study notes and example positions for improving at backgammon. Chapters are `.qmd` files rendered with knitr/R.
+
+## R setup: positions and gnubg
+
+Every chapter starts with a hidden chunk running `source("_common.R")`, which:
+
+- loads the companion package **bglab** from the sibling checkout `../bglab` via `pkgload::load_all()` (same convention as `../bganalyses`; bglab is not installed as a package). Its `ggboard(xgid)` draws a position as a ggplot, and `gnuid2xgid(pos_id, match_id)` converts a gnubg Position ID + Match ID to an XGID (verified exact by round-tripping through gnubg's `set xgid` / `show board`). Positions are kept as XGIDs throughout; convert gnubg IDs with `gnuid2xgid()` at the top of the chunk.
+- sources `R/gnubg.R`, which drives **GNU Backgammon 1.08 inside WSL** (`/usr/games/gnubg -t -q`, invoked as `wsl.exe -e ...`; override the path with `options(gnubg.exe = ...)`). The approach mirrors `\\wsl.localhost\Ubuntu\home\lasse\raccoon\raccoon\eval\gnubg_cli.py`, but positions go in as XGIDs via `set xgid` so the same string feeds both `ggboard()` and gnubg.
+  - `gnubg_moves(xgid, plies = 2, n = 5)`: ranked checker plays (XGID must have dice).
+  - `gnubg_cube(xgid, plies = 2)`: cubeful equities for No double / Double-take / Double-pass (XGID dice field `00`, player on roll must be able to double); gnubg's verdict and cubeless probabilities are in `attr(, "proper_action")` and `attr(, "probs")`.
+  - `show_moves(xgid, n = 5, plies = 2)`: prints the checker analysis in XG's text layout under a diagram (relies on `comment: ""`, set in `_common.R`). The book uses `plies = 4` (~25 s per position for n = 5; freeze caches it).
+  - Candidate count `n` sets gnubg's move filter so all `n` moves are evaluated at the full ply; gnubg's default filter would rank most candidates on shallower plies, which aren't comparable.
+  - Each call is a fresh gnubg process (~0.4 s). Match length, score, cube and Jacoby come from the XGID; nothing overrides them.
+
+Rendering therefore needs the `../bglab` checkout, WSL with gnubg, and the R packages `pkgload` and `ggforce` (plus bglab's other imports). bglab's `ggboard()` currently emits harmless ggplot2 warnings (`size` → `linewidth`, manual scale levels); use `#| warning: false` on board chunks.
 
 ## Commands
 
