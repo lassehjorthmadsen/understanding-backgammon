@@ -9,6 +9,100 @@ source("_common.R")
 
 ## Opening
 ## Attacking
+
+Fairly common type of middle game position with attacking potential. Left, about the minimal strength that *White* would need to double; right, a variation that gives *Black* a minimal take. 
+
+Note the two significant changes: White got another powerful builder, Black moved a pip back so he can't as easily anchor the 22-point. 
+
+:::: {layout-ncol=2 .column-body-outset}
+
+::: {}
+**Minimal double**
+
+```{r}
+#| warning: false
+#| echo: false
+id <- "XGID=-a-a-CCBC---cC---c-c-bb-A-:0:0:1:00:0:0:0:0:10"
+ggboard(id)
+```
+
+<details><summary>Analysis</summary>
+
+```{r}
+#| echo: false
+show_cube(id, plies = 4)
+```
+
+</details>
+:::
+
+::: {}
+**Minimal take**
+
+```{r}
+#| warning: false
+#| echo: false
+id <- "XGID=-aa--CCBCA--cB---c-c-bb-A-:0:0:1:00:0:0:0:0:10"
+ggboard(id)
+```
+
+<details><summary>Analysis</summary>
+
+```{r}
+#| echo: false
+show_cube(id, plies = 4)
+```
+
+</details>
+:::
+
+::::
+
+
+:::: {layout-ncol=2 .column-body-outset}
+
+::: {}
+**Solid double, solid take (A)**
+
+```{r}
+#| warning: false
+#| echo: false
+id <- "XGID=-a-a-CCBCA--cB---c-c-bb-A-:0:0:1:00:0:0:0:0:10"
+ggboard(id)
+```
+
+<details><summary>Analysis</summary>
+
+```{r}
+#| echo: false
+show_cube(id, plies = 4)
+```
+
+</details>
+:::
+
+::: {}
+**Solid double, solid take (B)**
+
+```{r}
+#| warning: false
+#| echo: false
+id <- "XGID=-aa--CCBC---cC---c-c-bb-A-:0:0:1:00:0:0:0:0:10"
+ggboard(id)
+```
+
+<details><summary>Analysis</summary>
+
+```{r}
+#| echo: false
+show_cube(id, plies = 4)
+```
+
+</details>
+:::
+
+::::
+
 ## Priming
 ## Too good
 ## Ugly games

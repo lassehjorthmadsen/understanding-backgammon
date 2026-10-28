@@ -27,3 +27,5 @@
 # OS specific files
 .DS_Store
 Thumbs.db
+# gnubg evaluation cache (R/gnubg.R)
+/_gnubg_cache/

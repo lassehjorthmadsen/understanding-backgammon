@@ -10,5 +10,165 @@ source("_common.R")
 ## Hitting loose
 ## Leaving flyshots
 ## Bearoff 
+
+### Deadly hits
+
+So, you manged to close out two checkers, made it to the bear-off -- this is about as good as it gets in backgammon. Still, even though the game feels like won, the occational surprise win is more common than many realize. Especially if you're facing a strong enemy home board.
+
+When to risk a deadly hit from the the bar in those situations? Not surprisingly your appetite for risk, shouldn't be too great when loss is high. Still, *some* risk is in order, when it raises gammon (or backgammon) chances. 
+
+Consider:
+
+:::: {layout-ncol=2 .column-body-outset}
+
+::: {}
+**A small risk is worth it**
+
+```{r}
+#| warning: false
+#| echo: false
+id <- "XGID=bBBBCCC------------bcbbbb-:1:-1:1:24:0:0:0:0:10"
+ggboard(id)
+```
+
+<details><summary>Analysis</summary>
+
+```{r}
+#| echo: false
+show_moves(id, n = 3, plies = 2, trials = 5 * 1296)
+```
+
+</details>
+:::
+
+::: {}
+**A slightly higher risk is not**
+
+```{r}
+#| warning: false
+#| echo: false
+id <- "XGID=bBBBBCC------------bcbbbb-:1:-1:1:24:0:0:0:0:10"
+ggboard(id)
+```
+
+<details><summary>Analysis</summary>
+
+```{r}
+#| echo: false
+show_moves(id, n = 3, plies = 2, trials = 5 * 1296)
+```
+
+</details>
+:::
+
+::::
+
+Observations:
+
+- In both variations, the safe play is 6/2, 5/3 -- that would be best at DMP.
+- The slightly risky play is 6/off -- conceeding 55 and 66 as shot-leaving rolls 
+- The risky play is worth it at the left hand side; sacrificing about a percentpoint of winning chances for some six percentagepoints extra gammon wins
+- At the right hand side the risky play is considerable more risky, sacrificing about 5 percentagepoints of wins, while gaining only 3 percentagepoints of extra gammon wins -- not worth it.
+
+The reason the risky play is too risky at the right hand side, despite the same 2/36 shot leaving rolls, is that quite a bit more rolls leads to trouble down the road: 65, 64, 63, 44, 33 are all much more problematic. 
+
+We can think of one or two shot leaving rolls as a 'small' risk. Some times a small risk comes not in the form of immediate shot-leaving rolls, but in the form of sacrificed flexibility. For example:
+
+:::: {layout-ncol=2 .column-body-outset}
+
+::: {}
+**A flexibility risk worth it**
+
+```{r}
+#| warning: false
+#| echo: false
+id <- "XGID=bBBBCCC------------bcbbbb-:1:-1:1:31:0:0:0:0:10"
+ggboard(id)
+```
+
+<details><summary>Analysis</summary>
+
+```{r}
+#| echo: false
+show_moves(id, n = 3, plies = 2, trials = 5 * 1296)
+```
+
+</details>
+:::
+
+::: {}
+**A flexibility risk *not* worth it**
+
+```{r}
+#| warning: false
+#| echo: false
+id <- "XGID=bCCBCBB------------bcbbbb-:1:-1:1:23:0:0:0:0:10"
+ggboard(id)
+```
+
+<details><summary>Analysis</summary>
+
+```{r}
+#| echo: false
+show_moves(id, n = 3, plies = 2, trials = 5 * 1296)
+```
+
+</details>
+:::
+
+::::
+
+In both positions White can bear off a checker at the expense of some flexibility, while conceeding no imediate shot-leaving numbers. 
+
+At the left the cost is about a percentagepoint of winning chances which is acceptable. At the right the inflexibility is more extreme and cost more than three times as much; not worth it. 
+
+Naturally, facing a weaker opposing board, the risk of leaving a shot is smaller, as a hit is surviable. So you get more inclined to leave those shots. For instance:
+
+:::: {layout-ncol=2 .column-body-outset}
+
+::: {}
+**A shot and flexibility risk that breaks even**
+
+```{r}
+#| warning: false
+#| echo: false
+id <- "XGID=bBBCBCC------------bcbbbb-:1:-1:1:43:0:0:0:0:10"
+ggboard(id)
+```
+
+<details><summary>Analysis</summary>
+
+```{r}
+#| echo: false
+show_moves(id, n = 3, plies = 2, trials = 5 * 1296)
+```
+
+</details>
+:::
+
+::: {}
+**A shot and flexibility risk that is worth it**
+
+```{r}
+#| warning: false
+#| echo: false
+id <- "XGID=bBBCBCC------------cacbbb-:1:-1:1:43:0:0:0:0:10"
+ggboard(id)
+```
+
+<details><summary>Analysis</summary>
+
+```{r}
+#| echo: false
+show_moves(id, n = 3, plies = 2, trials = 5 * 1296)
+```
+
+</details>
+:::
+
+::::
+
+Here, bearing off is slightly risky, both in terms of imidiate and future shots. Left, the plays are about even, right, facing weaker opposition, bearing off is correct.
+
 ## Containment
 
