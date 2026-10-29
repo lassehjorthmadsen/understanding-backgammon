@@ -127,12 +127,12 @@ Naturally, facing a weaker opposing board, the risk of leaving a shot is smaller
 :::: {layout-ncol=2 .column-body-outset}
 
 ::: {}
-**A shot and flexibility risk that breaks even**
+**A shot and flexibility risk worth it**
 
 ```{r}
 #| warning: false
 #| echo: false
-id <- "XGID=bBBCBCC------------bcbbbb-:1:-1:1:43:0:0:0:0:10"
+id <- "XGID=bBBCBCC------------cacbbb-:1:-1:1:43:0:0:0:0:10"
 ggboard(id)
 ```
 
@@ -147,12 +147,12 @@ show_moves(id, n = 3, plies = 2, trials = 5 * 1296)
 :::
 
 ::: {}
-**A shot and flexibility risk that is worth it**
+**A shot and flexibility risk *not* worth it**
 
 ```{r}
 #| warning: false
 #| echo: false
-id <- "XGID=bBBCBCC------------cacbbb-:1:-1:1:43:0:0:0:0:10"
+id <- "XGID=bBBCBCC------------bcbbbb-:1:-1:1:43:0:0:0:0:10"
 ggboard(id)
 ```
 

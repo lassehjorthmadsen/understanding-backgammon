@@ -30,7 +30,7 @@ ggboard(id)
 
 ```{r}
 #| echo: false
-show_cube(id, plies = 4)
+show_cube(id, plies = 2, trials = 5 * 1296)
 ```
 
 </details>
@@ -50,7 +50,7 @@ ggboard(id)
 
 ```{r}
 #| echo: false
-show_cube(id, plies = 4)
+show_cube(id, plies = 2, trials = 5 * 1296)
 ```
 
 </details>
@@ -75,7 +75,7 @@ ggboard(id)
 
 ```{r}
 #| echo: false
-show_cube(id, plies = 4)
+show_cube(id, plies = 2, trials = 5 * 1296)
 ```
 
 </details>
@@ -95,7 +95,7 @@ ggboard(id)
 
 ```{r}
 #| echo: false
-show_cube(id, plies = 4)
+show_cube(id, plies = 2, trials = 5 * 1296)
 ```
 
 </details>
