@@ -177,13 +177,16 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#hitting-loose" id="toc-hitting-loose" class="nav-link active" data-scroll-target="#hitting-loose">Hitting loose</a></li>
   <li><a href="#leaving-flyshots" id="toc-leaving-flyshots" class="nav-link" data-scroll-target="#leaving-flyshots">Leaving flyshots</a></li>
-  <li><a href="#bearoff" id="toc-bearoff" class="nav-link" data-scroll-target="#bearoff">Bearoff</a></li>
+  <li><a href="#bearoff" id="toc-bearoff" class="nav-link" data-scroll-target="#bearoff">Bearoff</a>
+  <ul class="collapse">
+  <li><a href="#deadly-hits" id="toc-deadly-hits" class="nav-link" data-scroll-target="#deadly-hits">Deadly hits</a></li>
+  </ul></li>
   <li><a href="#containment" id="toc-containment" class="nav-link" data-scroll-target="#containment">Containment</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./technical_checker.html">TECHNICAL PLAYS</a></li><li class="breadcrumb-item"><a href="./technical_checker.html"><span class="chapter-title">Checker plays</span></a></li></ol></nav>
 <div class="quarto-title">
@@ -210,8 +213,243 @@ ul.task-list li input[type="checkbox"] {
 <section id="leaving-flyshots" class="level2">
 <h2 class="anchored" data-anchor-id="leaving-flyshots">Leaving flyshots</h2>
 </section>
-<section id="bearoff" class="level2">
+<section id="bearoff" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="bearoff">Bearoff</h2>
+<section id="deadly-hits" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="deadly-hits">Deadly hits</h3>
+<p>So, you manged to close out two checkers, made it to the bear-off – this is about as good as it gets in backgammon. Still, even though the game feels like won, the occational surprise win is more common than many realize. Especially if you’re facing a strong enemy home board.</p>
+<p>When to risk a deadly hit from the the bar in those situations? Not surprisingly your appetite for risk, shouldn’t be too great when loss is high. Still, <em>some</em> risk is in order, when it raises gammon (or backgammon) chances.</p>
+<p>Consider:</p>
+<div class="column-body-outset quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p><strong>A small risk is worth it</strong></p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="technical_checker_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<details>
+<summary>
+Analysis
+</summary>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>Analyzed in Rollout, 6480 games at 2-ply
+
+1. 6/off      eq: +1.289  ±0.001
+   Player:   94.0% (G:42.4% B:1.2%)
+   Opponent: 6.0% (G:0.0% B:0.0%)
+
+2. 6/2 5/3    eq: +1.265 (-0.024)  ±0.001
+   Player:   95.6% (G:36.3% B:0.8%)
+   Opponent: 4.4% (G:0.0% B:0.0%)
+
+3. 5/3 4/off  eq: +1.170 (-0.119)  ±0.001
+   Player:   89.9% (G:40.3% B:1.1%)
+   Opponent: 10.1% (G:0.0% B:0.0%)</code></pre>
+</div>
+</div>
+</details>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p><strong>A slightly higher risk is not</strong></p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="technical_checker_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<details>
+<summary>
+Analysis
+</summary>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>Analyzed in Rollout, 6480 games at 2-ply
+
+1. 6/2 5/3  eq: +1.295  ±0.001
+   Player:   95.6% (G:39.2% B:0.9%)
+   Opponent: 4.4% (G:0.0% B:0.0%)
+
+2. 6/4 5/1  eq: +1.258 (-0.037)  ±0.001
+   Player:   94.7% (G:37.8% B:0.9%)
+   Opponent: 5.3% (G:0.0% B:0.0%)
+
+3. 6/off    eq: +1.241 (-0.054)  ±0.002
+   Player:   91.9% (G:42.7% B:1.3%)
+   Opponent: 8.1% (G:0.0% B:0.0%)</code></pre>
+</div>
+</div>
+</details>
+</div>
+</div>
+</div>
+<p>Observations:</p>
+<ul>
+<li>In both variations, the safe play is 6/2, 5/3 – that would be best at DMP.</li>
+<li>The slightly risky play is 6/off – conceeding 55 and 66 as shot-leaving rolls</li>
+<li>The risky play is worth it at the left hand side; sacrificing about a percentpoint of winning chances for some six percentagepoints extra gammon wins</li>
+<li>At the right hand side the risky play is considerable more risky, sacrificing about 5 percentagepoints of wins, while gaining only 3 percentagepoints of extra gammon wins – not worth it.</li>
+</ul>
+<p>The reason the risky play is too risky at the right hand side, despite the same 2/36 shot leaving rolls, is that quite a bit more rolls leads to trouble down the road: 65, 64, 63, 44, 33 are all much more problematic.</p>
+<p>We can think of one or two shot leaving rolls as a ‘small’ risk. Some times a small risk comes not in the form of immediate shot-leaving rolls, but in the form of sacrificed flexibility. For example:</p>
+<div class="column-body-outset quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p><strong>A flexibility risk worth it</strong></p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="technical_checker_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<details>
+<summary>
+Analysis
+</summary>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>Analyzed in Rollout, 6480 games at 2-ply
+
+1. 4/off    eq: +1.317  ±0.001
+   Player:   95.1% (G:42.5% B:1.2%)
+   Opponent: 4.9% (G:0.0% B:0.0%)
+
+2. 6/3 5/4  eq: +1.291 (-0.026)  ±0.001
+   Player:   96.8% (G:36.1% B:0.9%)
+   Opponent: 3.2% (G:0.0% B:0.0%)
+
+3. 6/2      eq: +1.244 (-0.073)  ±0.001
+   Player:   93.9% (G:38.4% B:0.9%)
+   Opponent: 6.1% (G:0.0% B:0.0%)</code></pre>
+</div>
+</div>
+</details>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p><strong>A flexibility risk <em>not</em> worth it</strong></p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="technical_checker_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<details>
+<summary>
+Analysis
+</summary>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>Analyzed in Rollout, 6480 games at 2-ply
+
+1. 6/4 6/3    eq: +1.244  ±0.001
+   Player:   97.3% (G:30.5% B:0.6%)
+   Opponent: 2.7% (G:0.0% B:0.0%)
+
+2. 4/1 2/off  eq: +1.214 (-0.030)  ±0.001
+   Player:   94.0% (G:35.4% B:0.6%)
+   Opponent: 6.0% (G:0.0% B:0.0%)
+
+3. 5/3 5/2    eq: +1.048 (-0.196)  ±0.001
+   Player:   90.6% (G:26.0% B:0.4%)
+   Opponent: 9.4% (G:0.0% B:0.0%)</code></pre>
+</div>
+</div>
+</details>
+</div>
+</div>
+</div>
+<p>In both positions White can bear off a checker at the expense of some flexibility, while conceeding no imediate shot-leaving numbers.</p>
+<p>At the left the cost is about a percentagepoint of winning chances which is acceptable. At the right the inflexibility is more extreme and cost more than three times as much; not worth it.</p>
+<p>Naturally, facing a weaker opposing board, the risk of leaving a shot is smaller, as a hit is surviable. So you get more inclined to leave those shots. For instance:</p>
+<div class="column-body-outset quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p><strong>A shot and flexibility risk that breaks even</strong></p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="technical_checker_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<details>
+<summary>
+Analysis
+</summary>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>Analyzed in Rollout, 6480 games at 2-ply
+
+1. 6/3 5/1    eq: +1.228  ±0.001
+   Player:   95.7% (G:32.3% B:0.6%)
+   Opponent: 4.3% (G:0.0% B:0.0%)
+
+2. 6/2 3/off  eq: +1.202 (-0.026)  ±0.001
+   Player:   91.8% (G:39.0% B:1.0%)
+   Opponent: 8.2% (G:0.0% B:0.0%)
+
+3. 5/1 3/off  eq: +0.981 (-0.247)  ±0.002
+   Player:   83.9% (G:36.7% B:1.0%)
+   Opponent: 16.1% (G:0.0% B:0.0%)</code></pre>
+</div>
+</div>
+</details>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p><strong>A shot and flexibility risk that is worth it</strong></p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="technical_checker_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<details>
+<summary>
+Analysis
+</summary>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>Analyzed in Rollout, 6480 games at 2-ply
+
+1. 6/2 3/off  eq: +1.300  ±0.001
+   Player:   94.4% (G:42.4% B:1.2%)
+   Opponent: 5.6% (G:0.0% B:0.0%)
+
+2. 6/3 5/1    eq: +1.275 (-0.025)  ±0.001
+   Player:   96.7% (G:34.8% B:0.7%)
+   Opponent: 3.3% (G:0.0% B:0.0%)
+
+3. 5/1 3/off  eq: +1.222 (-0.078)  ±0.001
+   Player:   91.2% (G:42.5% B:1.2%)
+   Opponent: 8.8% (G:0.0% B:0.0%)</code></pre>
+</div>
+</div>
+</details>
+</div>
+</div>
+</div>
+<p>Here, bearing off is slightly risky, both in terms of imidiate and future shots. Left, the plays are about even, right, facing weaker opposition, bearing off is correct.</p>
+</section>
 </section>
 <section id="containment" class="level2">
 <h2 class="anchored" data-anchor-id="containment">Containment</h2>
